@@ -9,11 +9,13 @@
     "format": "pretty-quick --staged --ignore-path .gitignore"
   },
   "dependencies": {
+    "@types/three": "^0.152.1",
     "@vitejs/plugin-vue2": "^2.2.0",
     "@vueuse/core": "^4.9.1",
     "clipboard": "^2.0.11",
     "core-js": "^3.11.1",
     "element-ui": "^2.15.5",
+    "three": "0.148.0",
     "vue": "^2.7.0",
     "vue-router": "^3.5.1",
     "vue2-helpers": "~1.1.7",
@@ -58,8 +60,6 @@
       "pretty-quick --staged --ignore-path .gitignore"
     ]
   },
- 
-  
   "vite": {
     "optimizeDeps": {
       "include": [
